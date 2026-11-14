@@ -1,0 +1,3831 @@
+[
+  {
+    "id": "bong joon ho",
+    "tmdbId": 21684,
+    "name": "Bong Joon Ho",
+    "dna": {
+      "languages": {
+        "ko": 15,
+        "ja": 2,
+        "en": 2
+      },
+      "countries": {},
+      "genres": {
+        "12": 3,
+        "14": 1,
+        "16": 3,
+        "18": 14,
+        "27": 2,
+        "28": 2,
+        "35": 9,
+        "53": 2,
+        "80": 4,
+        "99": 1,
+        "878": 4,
+        "9648": 1,
+        "10749": 2,
+        "10751": 1
+      },
+      "decades": {
+        "1990": 3,
+        "2000": 8,
+        "2010": 4,
+        "2020": 2
+      },
+      "totalFilms": 19,
+      "confidence": "high",
+      "primaryLanguage": "ko",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        35,
+        80
+      ],
+      "pacing": "methodical",
+      "tone": "lighthearted",
+      "ecosystem": "korean"
+    }
+  },
+  {
+    "id": "park chan wook",
+    "tmdbId": 10099,
+    "name": "Park Chan-wook",
+    "dna": {
+      "languages": {
+        "ko": 23,
+        "en": 5
+      },
+      "countries": {},
+      "genres": {
+        "14": 1,
+        "16": 1,
+        "18": 15,
+        "27": 6,
+        "28": 6,
+        "35": 6,
+        "37": 1,
+        "53": 13,
+        "80": 5,
+        "99": 2,
+        "878": 2,
+        "9648": 3,
+        "10402": 2,
+        "10749": 5,
+        "10752": 1
+      },
+      "decades": {
+        "1990": 3,
+        "2000": 9,
+        "2010": 10,
+        "2020": 3
+      },
+      "totalFilms": 28,
+      "confidence": "high",
+      "primaryLanguage": "ko",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        53,
+        27
+      ],
+      "pacing": "kinetic",
+      "tone": "dark",
+      "ecosystem": "korean"
+    }
+  },
+  {
+    "id": "lee chang dong",
+    "tmdbId": 96657,
+    "name": "Lee Chang-dong",
+    "dna": {
+      "languages": {
+        "ko": 8
+      },
+      "countries": {},
+      "genres": {
+        "18": 8,
+        "53": 1,
+        "9648": 1,
+        "10749": 1
+      },
+      "decades": {
+        "1990": 1,
+        "2000": 3,
+        "2010": 2,
+        "2020": 1
+      },
+      "totalFilms": 8,
+      "confidence": "high",
+      "primaryLanguage": "ko",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        53,
+        9648
+      ],
+      "pacing": "slow-burn",
+      "tone": "balanced",
+      "ecosystem": "korean"
+    }
+  },
+  {
+    "id": "na hong jin",
+    "tmdbId": 75915,
+    "name": "Na Hong-jin",
+    "dna": {
+      "languages": {
+        "ko": 6,
+        "xx": 2
+      },
+      "countries": {},
+      "genres": {
+        "18": 2,
+        "27": 2,
+        "28": 4,
+        "35": 1,
+        "53": 4,
+        "80": 2,
+        "878": 2,
+        "9648": 2
+      },
+      "decades": {
+        "2000": 3,
+        "2010": 2,
+        "2020": 2
+      },
+      "totalFilms": 8,
+      "confidence": "high",
+      "primaryLanguage": "ko",
+      "primaryCountry": "US",
+      "topGenres": [
+        28,
+        53,
+        18
+      ],
+      "pacing": "kinetic",
+      "tone": "dark",
+      "ecosystem": "korean"
+    }
+  },
+  {
+    "id": "kim jee woon",
+    "tmdbId": 69081,
+    "name": "Kim Jee-woon",
+    "dna": {
+      "languages": {
+        "ko": 19,
+        "en": 3
+      },
+      "countries": {},
+      "genres": {
+        "12": 1,
+        "14": 1,
+        "16": 1,
+        "18": 7,
+        "27": 7,
+        "28": 6,
+        "35": 8,
+        "36": 1,
+        "37": 1,
+        "53": 7,
+        "80": 3,
+        "99": 1,
+        "878": 2,
+        "9648": 5,
+        "10749": 4
+      },
+      "decades": {
+        "1990": 1,
+        "2000": 9,
+        "2010": 8,
+        "2020": 3
+      },
+      "totalFilms": 22,
+      "confidence": "high",
+      "primaryLanguage": "ko",
+      "primaryCountry": "US",
+      "topGenres": [
+        35,
+        18,
+        27
+      ],
+      "pacing": "kinetic",
+      "tone": "dark",
+      "ecosystem": "korean"
+    }
+  },
+  {
+    "id": "hong sang soo",
+    "tmdbId": 150975,
+    "name": "Hong Sang-soo",
+    "dna": {
+      "languages": {
+        "ko": 37,
+        "it": 1,
+        "en": 4,
+        "fr": 1
+      },
+      "countries": {},
+      "genres": {
+        "18": 37,
+        "35": 5,
+        "99": 4,
+        "10402": 1,
+        "10749": 8
+      },
+      "decades": {
+        "1990": 2,
+        "2000": 8,
+        "2010": 16,
+        "2020": 17
+      },
+      "totalFilms": 43,
+      "confidence": "high",
+      "primaryLanguage": "ko",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        10749,
+        35
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "korean"
+    }
+  },
+  {
+    "id": "ryoo seung wan",
+    "tmdbId": 86325,
+    "name": "Ryoo Seung-wan",
+    "dna": {
+      "languages": {
+        "ko": 19,
+        "en": 1
+      },
+      "countries": {},
+      "genres": {
+        "12": 1,
+        "14": 2,
+        "18": 6,
+        "27": 1,
+        "28": 15,
+        "35": 7,
+        "36": 1,
+        "37": 2,
+        "53": 8,
+        "80": 9,
+        "10752": 2
+      },
+      "decades": {
+        "1990": 1,
+        "2000": 9,
+        "2010": 5,
+        "2020": 4
+      },
+      "totalFilms": 20,
+      "confidence": "high",
+      "primaryLanguage": "ko",
+      "primaryCountry": "US",
+      "topGenres": [
+        28,
+        80,
+        53
+      ],
+      "pacing": "kinetic",
+      "tone": "dark",
+      "ecosystem": "korean"
+    }
+  },
+  {
+    "id": "hayao miyazaki",
+    "tmdbId": 608,
+    "name": "Hayao Miyazaki",
+    "dna": {
+      "languages": {
+        "ja": 38
+      },
+      "countries": {},
+      "genres": {
+        "12": 13,
+        "14": 14,
+        "16": 38,
+        "18": 3,
+        "28": 3,
+        "35": 4,
+        "36": 1,
+        "80": 2,
+        "878": 2,
+        "9648": 3,
+        "10402": 1,
+        "10749": 1,
+        "10751": 6,
+        "10770": 4
+      },
+      "decades": {
+        "1970": 3,
+        "1980": 7,
+        "1990": 4,
+        "2000": 17,
+        "2010": 4,
+        "2020": 2
+      },
+      "totalFilms": 38,
+      "confidence": "high",
+      "primaryLanguage": "ja",
+      "primaryCountry": "US",
+      "topGenres": [
+        16,
+        14,
+        12
+      ],
+      "pacing": "kinetic",
+      "tone": "lighthearted",
+      "ecosystem": "japanese"
+    }
+  },
+  {
+    "id": "makoto shinkai",
+    "tmdbId": 74091,
+    "name": "Makoto Shinkai",
+    "dna": {
+      "languages": {
+        "ja": 17
+      },
+      "countries": {},
+      "genres": {
+        "12": 4,
+        "14": 4,
+        "16": 17,
+        "18": 10,
+        "35": 1,
+        "878": 3,
+        "10402": 1,
+        "10749": 7,
+        "10751": 2
+      },
+      "decades": {
+        "1990": 3,
+        "2000": 6,
+        "2010": 6,
+        "2020": 1
+      },
+      "totalFilms": 17,
+      "confidence": "high",
+      "primaryLanguage": "ja",
+      "primaryCountry": "US",
+      "topGenres": [
+        16,
+        18,
+        10749
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "japanese"
+    }
+  },
+  {
+    "id": "satoshi kon",
+    "tmdbId": 100128,
+    "name": "Satoshi Kon",
+    "dna": {
+      "languages": {
+        "ja": 5
+      },
+      "countries": {},
+      "genres": {
+        "14": 2,
+        "16": 5,
+        "18": 3,
+        "53": 3,
+        "878": 2,
+        "9648": 2
+      },
+      "decades": {
+        "1990": 1,
+        "2000": 4
+      },
+      "totalFilms": 5,
+      "confidence": "high",
+      "primaryLanguage": "ja",
+      "primaryCountry": "JP",
+      "topGenres": [
+        16,
+        53,
+        9648
+      ],
+      "pacing": "kinetic",
+      "tone": "dark",
+      "ecosystem": "japanese"
+    }
+  },
+  {
+    "id": "mamoru hosoda",
+    "tmdbId": 81718,
+    "name": "Mamoru Hosoda",
+    "dna": {
+      "languages": {
+        "en": 1,
+        "ja": 14
+      },
+      "countries": {},
+      "genres": {
+        "12": 6,
+        "14": 6,
+        "16": 15,
+        "18": 6,
+        "28": 5,
+        "35": 1,
+        "53": 1,
+        "878": 6,
+        "10402": 1,
+        "10751": 5
+      },
+      "decades": {
+        "1990": 3,
+        "2000": 7,
+        "2010": 3,
+        "2020": 2
+      },
+      "totalFilms": 15,
+      "confidence": "high",
+      "primaryLanguage": "ja",
+      "primaryCountry": "US",
+      "topGenres": [
+        16,
+        12,
+        14
+      ],
+      "pacing": "methodical",
+      "tone": "lighthearted",
+      "ecosystem": "japanese"
+    }
+  },
+  {
+    "id": "isao takahata",
+    "tmdbId": 628,
+    "name": "Isao Takahata",
+    "dna": {
+      "languages": {
+        "ja": 23
+      },
+      "countries": {},
+      "genres": {
+        "12": 5,
+        "14": 5,
+        "16": 21,
+        "18": 6,
+        "35": 5,
+        "99": 1,
+        "10402": 2,
+        "10749": 1,
+        "10751": 8,
+        "10752": 1
+      },
+      "decades": {
+        "1960": 2,
+        "1970": 7,
+        "1980": 5,
+        "1990": 5,
+        "2000": 1,
+        "2010": 3
+      },
+      "totalFilms": 23,
+      "confidence": "high",
+      "primaryLanguage": "ja",
+      "primaryCountry": "US",
+      "topGenres": [
+        16,
+        10751,
+        18
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "japanese"
+    }
+  },
+  {
+    "id": "hirokazu kore eda",
+    "tmdbId": 25645,
+    "name": "Hirokazu Kore-eda",
+    "dna": {
+      "languages": {
+        "ja": 36,
+        "fr": 1,
+        "ko": 1,
+        "en": 1
+      },
+      "countries": {},
+      "genres": {
+        "14": 3,
+        "16": 1,
+        "18": 20,
+        "27": 2,
+        "28": 2,
+        "35": 2,
+        "36": 1,
+        "53": 2,
+        "80": 3,
+        "99": 16,
+        "878": 1,
+        "9648": 2,
+        "10402": 1,
+        "10751": 3
+      },
+      "decades": {
+        "1990": 12,
+        "2000": 9,
+        "2010": 11,
+        "2020": 5
+      },
+      "totalFilms": 39,
+      "confidence": "high",
+      "primaryLanguage": "ja",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        99,
+        14
+      ],
+      "pacing": "slow-burn",
+      "tone": "dark",
+      "ecosystem": "japanese"
+    }
+  },
+  {
+    "id": "takashi miike",
+    "tmdbId": 17282,
+    "name": "Takashi Miike",
+    "dna": {
+      "languages": {
+        "ja": 111,
+        "ko": 1,
+        "en": 3
+      },
+      "countries": {},
+      "genres": {
+        "12": 9,
+        "14": 14,
+        "16": 1,
+        "18": 44,
+        "27": 20,
+        "28": 54,
+        "35": 32,
+        "36": 5,
+        "37": 1,
+        "53": 25,
+        "80": 48,
+        "99": 4,
+        "878": 11,
+        "9648": 4,
+        "10402": 3,
+        "10749": 2,
+        "10751": 4,
+        "10752": 1,
+        "10770": 9
+      },
+      "decades": {
+        "1990": 32,
+        "2000": 50,
+        "2010": 22,
+        "2020": 8
+      },
+      "totalFilms": 115,
+      "confidence": "high",
+      "primaryLanguage": "ja",
+      "primaryCountry": "US",
+      "topGenres": [
+        28,
+        80,
+        18
+      ],
+      "pacing": "kinetic",
+      "tone": "dark",
+      "ecosystem": "japanese"
+    }
+  },
+  {
+    "id": "yasujiro ozu",
+    "tmdbId": 95501,
+    "name": "Yasujirō Ozu",
+    "dna": {
+      "languages": {
+        "ja": 54
+      },
+      "countries": {},
+      "genres": {
+        "18": 40,
+        "27": 1,
+        "35": 21,
+        "80": 4,
+        "99": 1,
+        "10402": 1,
+        "10749": 5,
+        "10751": 1
+      },
+      "decades": {
+        "1920": 12,
+        "1930": 25,
+        "1940": 5,
+        "1950": 9,
+        "1960": 3
+      },
+      "totalFilms": 54,
+      "confidence": "high",
+      "primaryLanguage": "ja",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        35,
+        10749
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "japanese"
+    }
+  },
+  {
+    "id": "akira kurosawa",
+    "tmdbId": 5026,
+    "name": "Akira Kurosawa",
+    "dna": {
+      "languages": {
+        "ja": 31,
+        "ru": 1
+      },
+      "countries": {},
+      "genres": {
+        "12": 4,
+        "14": 1,
+        "18": 31,
+        "28": 6,
+        "35": 2,
+        "36": 4,
+        "53": 5,
+        "80": 4,
+        "99": 1,
+        "9648": 2,
+        "10749": 2,
+        "10752": 2,
+        "10770": 1
+      },
+      "decades": {
+        "1940": 9,
+        "1950": 10,
+        "1960": 5,
+        "1970": 3,
+        "1980": 2,
+        "1990": 3
+      },
+      "totalFilms": 32,
+      "confidence": "high",
+      "primaryLanguage": "ja",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        28,
+        53
+      ],
+      "pacing": "slow-burn",
+      "tone": "dark",
+      "ecosystem": "japanese"
+    }
+  },
+  {
+    "id": "naomi kawase",
+    "tmdbId": 20658,
+    "name": "Naomi Kawase",
+    "dna": {
+      "languages": {
+        "ja": 45,
+        "en": 7,
+        "es": 1,
+        "fr": 1
+      },
+      "countries": {},
+      "genres": {
+        "16": 2,
+        "18": 19,
+        "27": 1,
+        "35": 1,
+        "53": 1,
+        "99": 21,
+        "9648": 1,
+        "10402": 2,
+        "10749": 3
+      },
+      "decades": {
+        "1980": 7,
+        "1990": 13,
+        "2000": 10,
+        "2010": 17,
+        "2020": 6
+      },
+      "totalFilms": 54,
+      "confidence": "high",
+      "primaryLanguage": "ja",
+      "primaryCountry": "US",
+      "topGenres": [
+        99,
+        18,
+        10749
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "japanese"
+    }
+  },
+  {
+    "id": "hideo nakata",
+    "tmdbId": 26875,
+    "name": "Hideo Nakata",
+    "dna": {
+      "languages": {
+        "en": 5,
+        "ja": 38,
+        "zh": 1
+      },
+      "countries": {},
+      "genres": {
+        "14": 2,
+        "18": 16,
+        "27": 21,
+        "28": 1,
+        "35": 2,
+        "53": 13,
+        "80": 3,
+        "99": 3,
+        "878": 3,
+        "9648": 11,
+        "10749": 3,
+        "10770": 1
+      },
+      "decades": {
+        "1990": 8,
+        "2000": 12,
+        "2010": 14,
+        "2020": 10
+      },
+      "totalFilms": 44,
+      "confidence": "high",
+      "primaryLanguage": "ja",
+      "primaryCountry": "US",
+      "topGenres": [
+        27,
+        18,
+        53
+      ],
+      "pacing": "methodical",
+      "tone": "dark",
+      "ecosystem": "japanese"
+    }
+  },
+  {
+    "id": "wong kar wai",
+    "tmdbId": 12453,
+    "name": "Wong Kar-Wai",
+    "dna": {
+      "languages": {
+        "cn": 13,
+        "zh": 6,
+        "fr": 1,
+        "en": 4,
+        "ja": 1
+      },
+      "countries": {},
+      "genres": {
+        "18": 15,
+        "28": 5,
+        "35": 2,
+        "36": 1,
+        "80": 3,
+        "99": 5,
+        "878": 1,
+        "9648": 1,
+        "10749": 14
+      },
+      "decades": {
+        "1980": 1,
+        "1990": 8,
+        "2000": 11,
+        "2010": 2,
+        "2020": 2
+      },
+      "totalFilms": 25,
+      "confidence": "high",
+      "primaryLanguage": "cn",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        10749,
+        28
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "chinese"
+    }
+  },
+  {
+    "id": "john woo",
+    "tmdbId": 11401,
+    "name": "John Woo",
+    "dna": {
+      "languages": {
+        "en": 14,
+        "cn": 18,
+        "fr": 1,
+        "zh": 12
+      },
+      "countries": {},
+      "genres": {
+        "12": 7,
+        "14": 1,
+        "18": 14,
+        "27": 1,
+        "28": 31,
+        "35": 11,
+        "36": 2,
+        "53": 14,
+        "80": 16,
+        "878": 3,
+        "9648": 1,
+        "10749": 4,
+        "10752": 5,
+        "10770": 1
+      },
+      "decades": {
+        "1960": 2,
+        "1970": 8,
+        "1980": 11,
+        "1990": 8,
+        "2000": 8,
+        "2010": 4,
+        "2020": 2
+      },
+      "totalFilms": 45,
+      "confidence": "high",
+      "primaryLanguage": "cn",
+      "primaryCountry": "US",
+      "topGenres": [
+        28,
+        80,
+        18
+      ],
+      "pacing": "kinetic",
+      "tone": "dark",
+      "ecosystem": "chinese"
+    }
+  },
+  {
+    "id": "johnnie to",
+    "tmdbId": 25236,
+    "name": "Johnnie To",
+    "dna": {
+      "languages": {
+        "cn": 64,
+        "zh": 4
+      },
+      "countries": {},
+      "genres": {
+        "12": 1,
+        "14": 6,
+        "18": 29,
+        "28": 32,
+        "35": 23,
+        "36": 1,
+        "53": 21,
+        "80": 33,
+        "878": 2,
+        "9648": 1,
+        "10749": 19,
+        "10752": 1,
+        "10770": 7
+      },
+      "decades": {
+        "1980": 10,
+        "1990": 22,
+        "2000": 25,
+        "2010": 9,
+        "2020": 1
+      },
+      "totalFilms": 68,
+      "confidence": "high",
+      "primaryLanguage": "cn",
+      "primaryCountry": "US",
+      "topGenres": [
+        80,
+        28,
+        18
+      ],
+      "pacing": "kinetic",
+      "tone": "dark",
+      "ecosystem": "chinese"
+    }
+  },
+  {
+    "id": "hou hsiao hsien",
+    "tmdbId": 64992,
+    "name": "Hou Hsiao-hsien",
+    "dna": {
+      "languages": {
+        "zh": 20,
+        "fr": 2,
+        "ja": 1
+      },
+      "countries": {},
+      "genres": {
+        "18": 20,
+        "28": 1,
+        "35": 3,
+        "36": 3,
+        "80": 2,
+        "99": 1,
+        "10402": 1,
+        "10749": 5,
+        "10751": 1,
+        "10752": 1
+      },
+      "decades": {
+        "1980": 11,
+        "1990": 4,
+        "2000": 6,
+        "2010": 2
+      },
+      "totalFilms": 23,
+      "confidence": "high",
+      "primaryLanguage": "zh",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        10749,
+        35
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "chinese"
+    }
+  },
+  {
+    "id": "edward yang",
+    "tmdbId": 143035,
+    "name": "Edward Yang",
+    "dna": {
+      "languages": {
+        "zh": 14
+      },
+      "countries": {},
+      "genres": {
+        "16": 1,
+        "18": 11,
+        "35": 2,
+        "53": 1,
+        "80": 3,
+        "9648": 1,
+        "10402": 1,
+        "10749": 3,
+        "10770": 1
+      },
+      "decades": {
+        "1980": 6,
+        "1990": 6,
+        "2000": 2
+      },
+      "totalFilms": 14,
+      "confidence": "high",
+      "primaryLanguage": "zh",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        80,
+        10749
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "chinese"
+    }
+  },
+  {
+    "id": "jia zhangke",
+    "tmdbId": 24011,
+    "name": "Jia Zhangke",
+    "dna": {
+      "languages": {
+        "zh": 44,
+        "xx": 1,
+        "it": 1,
+        "ja": 1,
+        "ru": 1
+      },
+      "countries": {},
+      "genres": {
+        "16": 1,
+        "18": 29,
+        "28": 1,
+        "35": 4,
+        "36": 2,
+        "80": 2,
+        "99": 20,
+        "878": 1,
+        "10402": 1,
+        "10749": 6,
+        "10751": 1
+      },
+      "decades": {
+        "1990": 4,
+        "2000": 15,
+        "2010": 17,
+        "2020": 9
+      },
+      "totalFilms": 48,
+      "confidence": "high",
+      "primaryLanguage": "zh",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        99,
+        10749
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "chinese"
+    }
+  },
+  {
+    "id": "zhang yimou",
+    "tmdbId": 607,
+    "name": "Zhang Yimou",
+    "dna": {
+      "languages": {
+        "zh": 36,
+        "en": 3,
+        "fr": 3
+      },
+      "countries": {},
+      "genres": {
+        "12": 3,
+        "14": 2,
+        "18": 25,
+        "28": 7,
+        "35": 7,
+        "36": 6,
+        "53": 6,
+        "80": 5,
+        "99": 7,
+        "878": 1,
+        "9648": 1,
+        "10402": 2,
+        "10749": 5,
+        "10752": 4
+      },
+      "decades": {
+        "1980": 2,
+        "1990": 10,
+        "2000": 11,
+        "2010": 7,
+        "2020": 10
+      },
+      "totalFilms": 42,
+      "confidence": "high",
+      "primaryLanguage": "zh",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        28,
+        35
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "chinese"
+    }
+  },
+  {
+    "id": "michael haneke",
+    "tmdbId": 6011,
+    "name": "Michael Haneke",
+    "dna": {
+      "languages": {
+        "fr": 7,
+        "de": 14,
+        "en": 1
+      },
+      "countries": {},
+      "genres": {
+        "18": 20,
+        "27": 2,
+        "53": 3,
+        "80": 1,
+        "99": 2,
+        "9648": 3,
+        "10749": 3,
+        "10752": 1,
+        "10770": 8
+      },
+      "decades": {
+        "1970": 3,
+        "1980": 4,
+        "1990": 7,
+        "2000": 6,
+        "2010": 2
+      },
+      "totalFilms": 22,
+      "confidence": "high",
+      "primaryLanguage": "de",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        10770,
+        53
+      ],
+      "pacing": "slow-burn",
+      "tone": "dark",
+      "ecosystem": "german"
+    }
+  },
+  {
+    "id": "jacques audiard",
+    "tmdbId": 17496,
+    "name": "Jacques Audiard",
+    "dna": {
+      "languages": {
+        "fr": 11,
+        "en": 1
+      },
+      "countries": {},
+      "genres": {
+        "18": 10,
+        "35": 2,
+        "37": 1,
+        "53": 2,
+        "80": 5,
+        "99": 2,
+        "10402": 1,
+        "10749": 3,
+        "10752": 1
+      },
+      "decades": {
+        "1990": 3,
+        "2000": 3,
+        "2010": 4,
+        "2020": 2
+      },
+      "totalFilms": 12,
+      "confidence": "high",
+      "primaryLanguage": "fr",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        80,
+        10749
+      ],
+      "pacing": "methodical",
+      "tone": "dark",
+      "ecosystem": "french"
+    }
+  },
+  {
+    "id": "claire denis",
+    "tmdbId": 9888,
+    "name": "Claire Denis",
+    "dna": {
+      "languages": {
+        "fr": 33,
+        "en": 13,
+        "it": 1
+      },
+      "countries": {},
+      "genres": {
+        "18": 26,
+        "27": 2,
+        "35": 1,
+        "53": 4,
+        "80": 3,
+        "99": 13,
+        "878": 4,
+        "9648": 2,
+        "10402": 1,
+        "10749": 6,
+        "10770": 2
+      },
+      "decades": {
+        "1960": 1,
+        "1970": 2,
+        "1980": 2,
+        "1990": 17,
+        "2000": 10,
+        "2010": 11,
+        "2020": 3
+      },
+      "totalFilms": 47,
+      "confidence": "high",
+      "primaryLanguage": "fr",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        99,
+        10749
+      ],
+      "pacing": "slow-burn",
+      "tone": "dark",
+      "ecosystem": "french"
+    }
+  },
+  {
+    "id": "pedro almodovar",
+    "tmdbId": 309,
+    "name": "Pedro Almodóvar",
+    "dna": {
+      "languages": {
+        "es": 37,
+        "en": 3,
+        "pt": 1
+      },
+      "countries": {},
+      "genres": {
+        "18": 26,
+        "27": 1,
+        "35": 24,
+        "37": 1,
+        "53": 5,
+        "80": 2,
+        "9648": 1,
+        "10749": 10
+      },
+      "decades": {
+        "1970": 13,
+        "1980": 7,
+        "1990": 6,
+        "2000": 6,
+        "2010": 4,
+        "2020": 5
+      },
+      "totalFilms": 41,
+      "confidence": "high",
+      "primaryLanguage": "es",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        35,
+        10749
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "spanish"
+    }
+  },
+  {
+    "id": "yorgos lanthimos",
+    "tmdbId": 122423,
+    "name": "Yorgos Lanthimos",
+    "dna": {
+      "languages": {
+        "el": 7,
+        "en": 7,
+        "it": 1
+      },
+      "countries": {},
+      "genres": {
+        "14": 1,
+        "18": 10,
+        "35": 8,
+        "36": 1,
+        "53": 3,
+        "99": 1,
+        "878": 2,
+        "9648": 3,
+        "10749": 2
+      },
+      "decades": {
+        "1990": 1,
+        "2000": 4,
+        "2010": 5,
+        "2020": 5
+      },
+      "totalFilms": 15,
+      "confidence": "high",
+      "primaryLanguage": "el",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        35,
+        53
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "el"
+    }
+  },
+  {
+    "id": "ruben ostlund",
+    "tmdbId": 56370,
+    "name": "Ruben Östlund",
+    "dna": {
+      "languages": {
+        "sv": 13,
+        "en": 5
+      },
+      "countries": {},
+      "genres": {
+        "18": 10,
+        "28": 1,
+        "35": 4,
+        "80": 2,
+        "99": 4
+      },
+      "decades": {
+        "1990": 2,
+        "2000": 8,
+        "2010": 5,
+        "2020": 1
+      },
+      "totalFilms": 18,
+      "confidence": "high",
+      "primaryLanguage": "sv",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        35,
+        99
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "scandinavian"
+    }
+  },
+  {
+    "id": "lars von trier",
+    "tmdbId": 42,
+    "name": "Lars von Trier",
+    "dna": {
+      "languages": {
+        "en": 11,
+        "da": 22,
+        "de": 1,
+        "fr": 2
+      },
+      "countries": {},
+      "genres": {
+        "12": 1,
+        "14": 3,
+        "16": 1,
+        "18": 28,
+        "27": 6,
+        "35": 4,
+        "53": 4,
+        "80": 7,
+        "99": 1,
+        "878": 2,
+        "9648": 4,
+        "10402": 1,
+        "10749": 1,
+        "10752": 1,
+        "10770": 2
+      },
+      "decades": {
+        "1960": 2,
+        "1970": 4,
+        "1980": 6,
+        "1990": 5,
+        "2000": 12,
+        "2010": 5
+      },
+      "totalFilms": 36,
+      "confidence": "high",
+      "primaryLanguage": "da",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        80,
+        27
+      ],
+      "pacing": "slow-burn",
+      "tone": "dark",
+      "ecosystem": "scandinavian"
+    }
+  },
+  {
+    "id": "thomas vinterberg",
+    "tmdbId": 4453,
+    "name": "Thomas Vinterberg",
+    "dna": {
+      "languages": {
+        "da": 11,
+        "en": 5
+      },
+      "countries": {},
+      "genres": {
+        "18": 13,
+        "28": 1,
+        "35": 4,
+        "36": 1,
+        "53": 2,
+        "80": 2,
+        "878": 1,
+        "10402": 1,
+        "10749": 3,
+        "10770": 1
+      },
+      "decades": {
+        "1990": 5,
+        "2000": 5,
+        "2010": 5,
+        "2020": 1
+      },
+      "totalFilms": 16,
+      "confidence": "high",
+      "primaryLanguage": "da",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        35,
+        10749
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "scandinavian"
+    }
+  },
+  {
+    "id": "ingmar bergman",
+    "tmdbId": 6648,
+    "name": "Ingmar Bergman",
+    "dna": {
+      "languages": {
+        "sv": 63,
+        "de": 2,
+        "en": 1,
+        "da": 1
+      },
+      "countries": {},
+      "genres": {
+        "14": 6,
+        "18": 51,
+        "27": 1,
+        "35": 10,
+        "36": 1,
+        "53": 2,
+        "99": 7,
+        "9648": 3,
+        "10402": 5,
+        "10749": 15,
+        "10752": 1,
+        "10770": 21
+      },
+      "decades": {
+        "1940": 7,
+        "1950": 17,
+        "1960": 15,
+        "1970": 12,
+        "1980": 8,
+        "1990": 5,
+        "2000": 3
+      },
+      "totalFilms": 67,
+      "confidence": "high",
+      "primaryLanguage": "sv",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        10770,
+        10749
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "scandinavian"
+    }
+  },
+  {
+    "id": "roy andersson",
+    "tmdbId": 45791,
+    "name": "Roy Andersson",
+    "dna": {
+      "languages": {
+        "sv": 14,
+        "en": 3
+      },
+      "countries": {},
+      "genres": {
+        "14": 2,
+        "18": 11,
+        "35": 6,
+        "80": 1,
+        "99": 4,
+        "10402": 1,
+        "10749": 1
+      },
+      "decades": {
+        "1960": 4,
+        "1970": 3,
+        "1980": 1,
+        "1990": 1,
+        "2000": 6,
+        "2010": 2
+      },
+      "totalFilms": 17,
+      "confidence": "high",
+      "primaryLanguage": "sv",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        35,
+        99
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "scandinavian"
+    }
+  },
+  {
+    "id": "gaspar noe",
+    "tmdbId": 14597,
+    "name": "Gaspar Noé",
+    "dna": {
+      "languages": {
+        "fr": 14,
+        "en": 8,
+        "it": 1,
+        "es": 2,
+        "xx": 2
+      },
+      "countries": {},
+      "genres": {
+        "14": 5,
+        "18": 18,
+        "27": 2,
+        "36": 1,
+        "53": 6,
+        "80": 2,
+        "99": 4,
+        "878": 1,
+        "9648": 3,
+        "10402": 2,
+        "10749": 3,
+        "10751": 1
+      },
+      "decades": {
+        "1980": 2,
+        "1990": 4,
+        "2000": 8,
+        "2010": 8,
+        "2020": 4
+      },
+      "totalFilms": 27,
+      "confidence": "high",
+      "primaryLanguage": "fr",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        53,
+        14
+      ],
+      "pacing": "slow-burn",
+      "tone": "dark",
+      "ecosystem": "french"
+    }
+  },
+  {
+    "id": "xavier dolan",
+    "tmdbId": 143593,
+    "name": "Xavier Dolan",
+    "dna": {
+      "languages": {
+        "fr": 8,
+        "en": 2
+      },
+      "countries": {},
+      "genres": {
+        "18": 8,
+        "27": 1,
+        "53": 1,
+        "9648": 1,
+        "10402": 1,
+        "10749": 3
+      },
+      "decades": {
+        "2000": 1,
+        "2010": 7,
+        "2020": 1
+      },
+      "totalFilms": 10,
+      "confidence": "high",
+      "primaryLanguage": "fr",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        10749,
+        27
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "french"
+    }
+  },
+  {
+    "id": "mani ratnam",
+    "tmdbId": 78747,
+    "name": "Mani Ratnam",
+    "dna": {
+      "languages": {
+        "hi": 4,
+        "ta": 23,
+        "te": 1,
+        "kn": 1,
+        "ml": 1
+      },
+      "countries": {},
+      "genres": {
+        "12": 4,
+        "18": 25,
+        "28": 12,
+        "35": 1,
+        "36": 3,
+        "53": 5,
+        "80": 10,
+        "10749": 15,
+        "10751": 1,
+        "10752": 1
+      },
+      "decades": {
+        "1980": 8,
+        "1990": 7,
+        "2000": 5,
+        "2010": 6,
+        "2020": 3
+      },
+      "totalFilms": 30,
+      "confidence": "high",
+      "primaryLanguage": "ta",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        10749,
+        28
+      ],
+      "pacing": "methodical",
+      "tone": "lighthearted",
+      "ecosystem": "south-indian"
+    }
+  },
+  {
+    "id": "vetrimaaran",
+    "tmdbId": 550172,
+    "name": "Vetrimaaran",
+    "dna": {
+      "languages": {
+        "ta": 12
+      },
+      "countries": {},
+      "genres": {
+        "18": 12,
+        "28": 11,
+        "36": 1,
+        "53": 5,
+        "80": 5
+      },
+      "decades": {
+        "2000": 1,
+        "2010": 4,
+        "2020": 3
+      },
+      "totalFilms": 12,
+      "confidence": "high",
+      "primaryLanguage": "ta",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        28,
+        53
+      ],
+      "pacing": "kinetic",
+      "tone": "dark",
+      "ecosystem": "south-indian"
+    }
+  },
+  {
+    "id": "ss rajamouli",
+    "tmdbId": 147021,
+    "name": "S. S. Rajamouli",
+    "dna": {
+      "languages": {
+        "te": 15
+      },
+      "countries": {},
+      "genres": {
+        "12": 3,
+        "14": 4,
+        "18": 9,
+        "28": 14,
+        "35": 3,
+        "80": 1,
+        "99": 1,
+        "9648": 1,
+        "10749": 1
+      },
+      "decades": {
+        "2000": 7,
+        "2010": 4,
+        "2020": 4
+      },
+      "totalFilms": 15,
+      "confidence": "high",
+      "primaryLanguage": "te",
+      "primaryCountry": "US",
+      "topGenres": [
+        28,
+        18,
+        14
+      ],
+      "pacing": "kinetic",
+      "tone": "lighthearted",
+      "ecosystem": "south-indian"
+    }
+  },
+  {
+    "id": "sanjay leela bhansali",
+    "tmdbId": 42804,
+    "name": "Sanjay Leela Bhansali",
+    "dna": {
+      "languages": {
+        "hi": 13
+      },
+      "countries": {},
+      "genres": {
+        "18": 12,
+        "35": 1,
+        "36": 3,
+        "80": 1,
+        "10402": 1,
+        "10749": 10,
+        "10751": 1
+      },
+      "decades": {
+        "1990": 2,
+        "2000": 3,
+        "2010": 4,
+        "2020": 2
+      },
+      "totalFilms": 13,
+      "confidence": "high",
+      "primaryLanguage": "hi",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        10749,
+        36
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "hindi"
+    }
+  },
+  {
+    "id": "anurag kashyap",
+    "tmdbId": 85670,
+    "name": "Anurag Kashyap",
+    "dna": {
+      "languages": {
+        "hi": 31,
+        "en": 1,
+        "ml": 1
+      },
+      "countries": {},
+      "genres": {
+        "12": 1,
+        "16": 1,
+        "18": 19,
+        "27": 1,
+        "28": 3,
+        "35": 2,
+        "53": 12,
+        "80": 14,
+        "878": 1,
+        "9648": 4,
+        "10402": 1,
+        "10749": 5,
+        "10751": 1
+      },
+      "decades": {
+        "2000": 8,
+        "2010": 13,
+        "2020": 9
+      },
+      "totalFilms": 33,
+      "confidence": "high",
+      "primaryLanguage": "hi",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        80,
+        53
+      ],
+      "pacing": "kinetic",
+      "tone": "dark",
+      "ecosystem": "hindi"
+    }
+  },
+  {
+    "id": "imtiaz ali",
+    "tmdbId": 71276,
+    "name": "Imtiaz Ali",
+    "dna": {
+      "languages": {
+        "hi": 17
+      },
+      "countries": {},
+      "genres": {
+        "18": 11,
+        "35": 6,
+        "80": 1,
+        "10402": 2,
+        "10749": 11
+      },
+      "decades": {
+        "2000": 4,
+        "2010": 9,
+        "2020": 3
+      },
+      "totalFilms": 17,
+      "confidence": "high",
+      "primaryLanguage": "hi",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        10749,
+        35
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "hindi"
+    }
+  },
+  {
+    "id": "satyajit ray",
+    "tmdbId": 12160,
+    "name": "Satyajit Ray",
+    "dna": {
+      "languages": {
+        "bn": 32,
+        "hi": 3,
+        "en": 2,
+        "xx": 1
+      },
+      "countries": {},
+      "genres": {
+        "12": 2,
+        "14": 3,
+        "18": 28,
+        "27": 1,
+        "35": 6,
+        "36": 2,
+        "53": 1,
+        "80": 2,
+        "99": 5,
+        "9648": 2,
+        "10402": 2,
+        "10749": 3,
+        "10751": 2,
+        "10770": 2
+      },
+      "decades": {
+        "1950": 5,
+        "1960": 14,
+        "1970": 11,
+        "1980": 5,
+        "1990": 3
+      },
+      "totalFilms": 38,
+      "confidence": "high",
+      "primaryLanguage": "bn",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        35,
+        99
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "bn"
+    }
+  },
+  {
+    "id": "asghar farhadi",
+    "tmdbId": 229931,
+    "name": "Asghar Farhadi",
+    "dna": {
+      "languages": {
+        "fa": 7,
+        "fr": 2,
+        "es": 1
+      },
+      "countries": {},
+      "genres": {
+        "18": 9,
+        "53": 3,
+        "80": 1,
+        "9648": 3
+      },
+      "decades": {
+        "2000": 4,
+        "2010": 4,
+        "2020": 2
+      },
+      "totalFilms": 10,
+      "confidence": "high",
+      "primaryLanguage": "fa",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        53,
+        9648
+      ],
+      "pacing": "slow-burn",
+      "tone": "dark",
+      "ecosystem": "iranian"
+    }
+  },
+  {
+    "id": "abbas kiarostami",
+    "tmdbId": 119294,
+    "name": "Abbas Kiarostami",
+    "dna": {
+      "languages": {
+        "fa": 36,
+        "fr": 4,
+        "it": 4,
+        "ja": 1,
+        "en": 2,
+        "es": 2
+      },
+      "countries": {},
+      "genres": {
+        "12": 2,
+        "16": 1,
+        "18": 28,
+        "35": 2,
+        "80": 1,
+        "99": 22,
+        "10749": 2,
+        "10751": 5
+      },
+      "decades": {
+        "1970": 14,
+        "1980": 6,
+        "1990": 9,
+        "2000": 13,
+        "2010": 7
+      },
+      "totalFilms": 49,
+      "confidence": "high",
+      "primaryLanguage": "fa",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        99,
+        10751
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "iranian"
+    }
+  },
+  {
+    "id": "jafar panahi",
+    "tmdbId": 120229,
+    "name": "Jafar Panahi",
+    "dna": {
+      "languages": {
+        "fa": 18,
+        "en": 2,
+        "fr": 3
+      },
+      "countries": {},
+      "genres": {
+        "18": 17,
+        "35": 2,
+        "53": 2,
+        "80": 2,
+        "99": 8,
+        "9648": 2,
+        "10749": 1,
+        "10751": 1
+      },
+      "decades": {
+        "1980": 2,
+        "1990": 4,
+        "2000": 5,
+        "2010": 5,
+        "2020": 7
+      },
+      "totalFilms": 23,
+      "confidence": "high",
+      "primaryLanguage": "fa",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        99,
+        35
+      ],
+      "pacing": "slow-burn",
+      "tone": "balanced",
+      "ecosystem": "iranian"
+    }
+  },
+  {
+    "id": "alfonso cuaron",
+    "tmdbId": 11218,
+    "name": "Alfonso Cuarón",
+    "dna": {
+      "languages": {
+        "es": 6,
+        "en": 8,
+        "fr": 1
+      },
+      "countries": {},
+      "genres": {
+        "12": 1,
+        "14": 3,
+        "18": 10,
+        "27": 1,
+        "28": 1,
+        "35": 2,
+        "53": 2,
+        "99": 1,
+        "878": 2,
+        "10749": 4,
+        "10751": 1
+      },
+      "decades": {
+        "1980": 3,
+        "1990": 3,
+        "2000": 5,
+        "2010": 2
+      },
+      "totalFilms": 15,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        10749,
+        14
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "alejandro gonzalez inarritu",
+    "tmdbId": 223,
+    "name": "Alejandro G. Iñárritu",
+    "dna": {
+      "languages": {
+        "es": 4,
+        "en": 11,
+        "fr": 2
+      },
+      "countries": {},
+      "genres": {
+        "12": 1,
+        "18": 12,
+        "28": 2,
+        "35": 4,
+        "37": 1,
+        "53": 3,
+        "80": 2,
+        "99": 2,
+        "10752": 1
+      },
+      "decades": {
+        "1990": 2,
+        "2000": 6,
+        "2010": 6,
+        "2020": 2
+      },
+      "totalFilms": 17,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        35,
+        53
+      ],
+      "pacing": "methodical",
+      "tone": "dark",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "guillermo del toro",
+    "tmdbId": 10828,
+    "name": "Guillermo del Toro",
+    "dna": {
+      "languages": {
+        "es": 5,
+        "en": 11
+      },
+      "countries": {},
+      "genres": {
+        "12": 2,
+        "14": 8,
+        "16": 1,
+        "18": 8,
+        "27": 8,
+        "28": 4,
+        "35": 1,
+        "53": 5,
+        "80": 3,
+        "878": 2,
+        "9648": 1,
+        "10749": 2,
+        "10752": 1
+      },
+      "decades": {
+        "1980": 2,
+        "1990": 2,
+        "2000": 5,
+        "2010": 3,
+        "2020": 3
+      },
+      "totalFilms": 16,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        14,
+        18,
+        27
+      ],
+      "pacing": "kinetic",
+      "tone": "dark",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "fernando meirelles",
+    "tmdbId": 8557,
+    "name": "Fernando Meirelles",
+    "dna": {
+      "languages": {
+        "en": 6,
+        "pt": 15
+      },
+      "countries": {},
+      "genres": {
+        "12": 1,
+        "18": 11,
+        "28": 1,
+        "35": 3,
+        "36": 1,
+        "53": 4,
+        "80": 2,
+        "99": 6,
+        "878": 2,
+        "9648": 2,
+        "10749": 2,
+        "10751": 1,
+        "10770": 1
+      },
+      "decades": {
+        "1980": 4,
+        "1990": 2,
+        "2000": 5,
+        "2010": 7,
+        "2020": 1
+      },
+      "totalFilms": 21,
+      "confidence": "high",
+      "primaryLanguage": "pt",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        99,
+        53
+      ],
+      "pacing": "slow-burn",
+      "tone": "balanced",
+      "ecosystem": "portuguese"
+    }
+  },
+  {
+    "id": "pablo larrain",
+    "tmdbId": 225009,
+    "name": "Pablo Larraín",
+    "dna": {
+      "languages": {
+        "es": 9,
+        "it": 1,
+        "en": 4
+      },
+      "countries": {},
+      "genres": {
+        "14": 1,
+        "18": 12,
+        "27": 1,
+        "35": 1,
+        "36": 3,
+        "53": 3,
+        "99": 2,
+        "9648": 1,
+        "10402": 3
+      },
+      "decades": {
+        "2000": 2,
+        "2010": 7,
+        "2020": 4
+      },
+      "totalFilms": 14,
+      "confidence": "high",
+      "primaryLanguage": "es",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        36,
+        53
+      ],
+      "pacing": "slow-burn",
+      "tone": "dark",
+      "ecosystem": "spanish"
+    }
+  },
+  {
+    "id": "andrei tarkovsky",
+    "tmdbId": 8452,
+    "name": "Andrei Tarkovsky",
+    "dna": {
+      "languages": {
+        "ru": 9,
+        "sv": 1,
+        "it": 1
+      },
+      "countries": {},
+      "genres": {
+        "18": 10,
+        "36": 2,
+        "80": 1,
+        "99": 1,
+        "878": 2,
+        "9648": 1,
+        "10749": 1,
+        "10752": 1,
+        "10770": 2
+      },
+      "decades": {
+        "1950": 2,
+        "1960": 3,
+        "1970": 3,
+        "1980": 2,
+        "1990": 1
+      },
+      "totalFilms": 11,
+      "confidence": "high",
+      "primaryLanguage": "ru",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        36,
+        878
+      ],
+      "pacing": "slow-burn",
+      "tone": "balanced",
+      "ecosystem": "russian"
+    }
+  },
+  {
+    "id": "andrei zvyagintsev",
+    "tmdbId": 68519,
+    "name": "Andrey Zvyagintsev",
+    "dna": {
+      "languages": {
+        "ru": 6,
+        "fr": 1,
+        "en": 2
+      },
+      "countries": {},
+      "genres": {
+        "18": 8,
+        "53": 2,
+        "80": 2,
+        "9648": 1
+      },
+      "decades": {
+        "2000": 3,
+        "2010": 5,
+        "2020": 1
+      },
+      "totalFilms": 9,
+      "confidence": "high",
+      "primaryLanguage": "ru",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        53,
+        80
+      ],
+      "pacing": "methodical",
+      "tone": "dark",
+      "ecosystem": "russian"
+    }
+  },
+  {
+    "id": "krzysztof kieslowski",
+    "tmdbId": 1126,
+    "name": "Krzysztof Kieślowski",
+    "dna": {
+      "languages": {
+        "pl": 48,
+        "fr": 4,
+        "en": 3
+      },
+      "countries": {},
+      "genres": {
+        "14": 1,
+        "18": 30,
+        "35": 2,
+        "80": 2,
+        "99": 21,
+        "9648": 2,
+        "10749": 6,
+        "10770": 19
+      },
+      "decades": {
+        "1960": 5,
+        "1970": 25,
+        "1980": 17,
+        "1990": 7,
+        "2000": 1
+      },
+      "totalFilms": 55,
+      "confidence": "high",
+      "primaryLanguage": "pl",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        99,
+        10770
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "polish"
+    }
+  },
+  {
+    "id": "pawel pawlikowski",
+    "tmdbId": 64194,
+    "name": "Paweł Pawlikowski",
+    "dna": {
+      "languages": {
+        "en": 14,
+        "fr": 2,
+        "pl": 2,
+        "ru": 3
+      },
+      "countries": {},
+      "genres": {
+        "18": 11,
+        "36": 1,
+        "53": 2,
+        "99": 10,
+        "9648": 2,
+        "10402": 1,
+        "10749": 4
+      },
+      "decades": {
+        "1980": 6,
+        "1990": 7,
+        "2000": 2,
+        "2010": 3,
+        "2020": 2
+      },
+      "totalFilms": 21,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        99,
+        10749
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "bela tarr",
+    "tmdbId": 85637,
+    "name": "Béla Tarr",
+    "dna": {
+      "languages": {
+        "hu": 17,
+        "en": 3,
+        "bs": 1
+      },
+      "countries": {},
+      "genres": {
+        "18": 15,
+        "35": 1,
+        "80": 2,
+        "99": 6,
+        "9648": 1,
+        "10770": 1
+      },
+      "decades": {
+        "1970": 2,
+        "1980": 7,
+        "1990": 4,
+        "2000": 5,
+        "2010": 3
+      },
+      "totalFilms": 21,
+      "confidence": "high",
+      "primaryLanguage": "hu",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        99,
+        80
+      ],
+      "pacing": "slow-burn",
+      "tone": "dark",
+      "ecosystem": "hu"
+    }
+  },
+  {
+    "id": "apichatpong weerasethakul",
+    "tmdbId": 69759,
+    "name": "Apichatpong Weerasethakul",
+    "dna": {
+      "languages": {
+        "th": 50,
+        "en": 42,
+        "xx": 10,
+        "pt": 1,
+        "it": 1,
+        "ru": 1,
+        "fr": 2,
+        "ja": 1,
+        "cn": 1,
+        "ms": 1,
+        "es": 2,
+        "ko": 1
+      },
+      "countries": {},
+      "genres": {
+        "12": 1,
+        "14": 6,
+        "16": 1,
+        "18": 25,
+        "27": 1,
+        "28": 1,
+        "35": 3,
+        "99": 25,
+        "878": 3,
+        "9648": 6,
+        "10402": 2,
+        "10749": 5,
+        "10751": 1
+      },
+      "decades": {
+        "1990": 6,
+        "2000": 37,
+        "2010": 41,
+        "2020": 24
+      },
+      "totalFilms": 113,
+      "confidence": "high",
+      "primaryLanguage": "th",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        99,
+        14
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "th"
+    }
+  },
+  {
+    "id": "terrence malick",
+    "tmdbId": 30715,
+    "name": "Terrence Malick",
+    "dna": {
+      "languages": {
+        "en": 17,
+        "de": 1
+      },
+      "countries": {},
+      "genres": {
+        "14": 2,
+        "18": 15,
+        "36": 5,
+        "37": 1,
+        "80": 2,
+        "99": 2,
+        "10749": 6,
+        "10752": 2
+      },
+      "decades": {
+        "1960": 1,
+        "1970": 2,
+        "1990": 1,
+        "2000": 1,
+        "2010": 10,
+        "2020": 2
+      },
+      "totalFilms": 18,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        10749,
+        36
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "richard linklater",
+    "tmdbId": 564,
+    "name": "Richard Linklater",
+    "dna": {
+      "languages": {
+        "en": 31,
+        "xx": 1,
+        "fr": 1
+      },
+      "countries": {},
+      "genres": {
+        "14": 1,
+        "16": 3,
+        "18": 22,
+        "28": 1,
+        "35": 17,
+        "36": 4,
+        "53": 1,
+        "80": 3,
+        "99": 4,
+        "878": 1,
+        "10402": 4,
+        "10749": 4,
+        "10751": 1
+      },
+      "decades": {
+        "1980": 2,
+        "1990": 6,
+        "2000": 10,
+        "2010": 7,
+        "2020": 4
+      },
+      "totalFilms": 33,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        35,
+        36
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "jim jarmusch",
+    "tmdbId": 4429,
+    "name": "Jim Jarmusch",
+    "dna": {
+      "languages": {
+        "en": 25,
+        "fr": 1
+      },
+      "countries": {},
+      "genres": {
+        "14": 2,
+        "18": 13,
+        "27": 1,
+        "35": 12,
+        "37": 1,
+        "53": 1,
+        "80": 3,
+        "99": 4,
+        "9648": 2,
+        "10402": 5,
+        "10749": 3
+      },
+      "decades": {
+        "1980": 8,
+        "1990": 7,
+        "2000": 4,
+        "2010": 4,
+        "2020": 2
+      },
+      "totalFilms": 26,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        35,
+        10402
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "kelly reichardt",
+    "tmdbId": 56383,
+    "name": "Kelly Reichardt",
+    "dna": {
+      "languages": {
+        "en": 14,
+        "xx": 1
+      },
+      "countries": {},
+      "genres": {
+        "18": 11,
+        "35": 1,
+        "37": 2,
+        "53": 1,
+        "80": 3,
+        "99": 2
+      },
+      "decades": {
+        "1990": 1,
+        "2000": 4,
+        "2010": 5,
+        "2020": 5
+      },
+      "totalFilms": 15,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        80,
+        37
+      ],
+      "pacing": "slow-burn",
+      "tone": "dark",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "chloe zhao",
+    "tmdbId": 1395183,
+    "name": "Chloé Zhao",
+    "dna": {
+      "languages": {
+        "en": 8,
+        "zh": 1
+      },
+      "countries": {},
+      "genres": {
+        "12": 1,
+        "18": 7,
+        "27": 1,
+        "28": 1,
+        "36": 1,
+        "37": 2,
+        "878": 2,
+        "10749": 2
+      },
+      "decades": {
+        "2000": 1,
+        "2010": 4,
+        "2020": 3
+      },
+      "totalFilms": 9,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        37,
+        878
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "barry jenkins",
+    "tmdbId": 92784,
+    "name": "Barry Jenkins",
+    "dna": {
+      "languages": {
+        "en": 18
+      },
+      "countries": {},
+      "genres": {
+        "12": 1,
+        "16": 1,
+        "18": 12,
+        "99": 2,
+        "878": 2,
+        "10402": 1,
+        "10749": 2,
+        "10751": 1
+      },
+      "decades": {
+        "2000": 6,
+        "2010": 5,
+        "2020": 3
+      },
+      "totalFilms": 18,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        99,
+        878
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "david lynch",
+    "tmdbId": 5602,
+    "name": "David Lynch",
+    "dna": {
+      "languages": {
+        "en": 62,
+        "fr": 3,
+        "xx": 1
+      },
+      "countries": {},
+      "genres": {
+        "12": 1,
+        "14": 3,
+        "16": 13,
+        "18": 16,
+        "27": 19,
+        "28": 1,
+        "35": 14,
+        "36": 1,
+        "37": 1,
+        "53": 9,
+        "80": 6,
+        "99": 16,
+        "878": 2,
+        "9648": 10,
+        "10402": 6,
+        "10749": 1,
+        "10752": 1
+      },
+      "decades": {
+        "1960": 4,
+        "1970": 3,
+        "1980": 6,
+        "1990": 9,
+        "2000": 32,
+        "2010": 11
+      },
+      "totalFilms": 66,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        27,
+        18,
+        99
+      ],
+      "pacing": "slow-burn",
+      "tone": "dark",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "darren aronofsky",
+    "tmdbId": 6431,
+    "name": "Darren Aronofsky",
+    "dna": {
+      "languages": {
+        "en": 17
+      },
+      "countries": {},
+      "genres": {
+        "12": 2,
+        "18": 10,
+        "27": 2,
+        "28": 1,
+        "35": 4,
+        "53": 5,
+        "80": 2,
+        "878": 1,
+        "9648": 1,
+        "10749": 2
+      },
+      "decades": {
+        "1990": 5,
+        "2000": 3,
+        "2010": 3,
+        "2020": 2
+      },
+      "totalFilms": 17,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        53,
+        35
+      ],
+      "pacing": "methodical",
+      "tone": "dark",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "spike lee",
+    "tmdbId": 5281,
+    "name": "Spike Lee",
+    "dna": {
+      "languages": {
+        "en": 71,
+        "fr": 2,
+        "xx": 1
+      },
+      "countries": {},
+      "genres": {
+        "12": 1,
+        "16": 1,
+        "18": 37,
+        "27": 1,
+        "28": 2,
+        "35": 17,
+        "36": 3,
+        "53": 4,
+        "80": 9,
+        "99": 26,
+        "9648": 2,
+        "10402": 16,
+        "10749": 3,
+        "10752": 2,
+        "10770": 8
+      },
+      "decades": {
+        "1980": 7,
+        "1990": 18,
+        "2000": 20,
+        "2010": 22,
+        "2020": 5
+      },
+      "totalFilms": 74,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        99,
+        35
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "lynne ramsay",
+    "tmdbId": 83287,
+    "name": "Lynne Ramsay",
+    "dna": {
+      "languages": {
+        "en": 16
+      },
+      "countries": {},
+      "genres": {
+        "18": 13,
+        "27": 1,
+        "53": 3,
+        "80": 1,
+        "99": 1
+      },
+      "decades": {
+        "1990": 5,
+        "2000": 3,
+        "2010": 4,
+        "2020": 1
+      },
+      "totalFilms": 16,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        53,
+        27
+      ],
+      "pacing": "slow-burn",
+      "tone": "dark",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "christopher nolan",
+    "tmdbId": 525,
+    "name": "Christopher Nolan",
+    "dna": {
+      "languages": {
+        "en": 19
+      },
+      "countries": {},
+      "genres": {
+        "12": 3,
+        "14": 1,
+        "18": 10,
+        "27": 2,
+        "28": 7,
+        "36": 1,
+        "53": 6,
+        "80": 5,
+        "99": 1,
+        "878": 4,
+        "9648": 2,
+        "10752": 1
+      },
+      "decades": {
+        "1980": 1,
+        "1990": 3,
+        "2000": 7,
+        "2010": 5,
+        "2020": 3
+      },
+      "totalFilms": 19,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        28,
+        53
+      ],
+      "pacing": "kinetic",
+      "tone": "dark",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "david fincher",
+    "tmdbId": 7467,
+    "name": "David Fincher",
+    "dna": {
+      "languages": {
+        "en": 18
+      },
+      "countries": {},
+      "genres": {
+        "14": 1,
+        "18": 9,
+        "27": 1,
+        "28": 1,
+        "35": 1,
+        "36": 1,
+        "37": 1,
+        "53": 11,
+        "80": 7,
+        "99": 1,
+        "878": 1,
+        "9648": 5,
+        "10402": 3,
+        "10749": 1,
+        "10770": 1
+      },
+      "decades": {
+        "1980": 1,
+        "1990": 6,
+        "2000": 3,
+        "2010": 3,
+        "2020": 3
+      },
+      "totalFilms": 18,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        53,
+        18,
+        80
+      ],
+      "pacing": "kinetic",
+      "tone": "dark",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "martin scorsese",
+    "tmdbId": 1032,
+    "name": "Martin Scorsese",
+    "dna": {
+      "languages": {
+        "en": 66,
+        "it": 1
+      },
+      "countries": {},
+      "genres": {
+        "12": 1,
+        "14": 1,
+        "18": 33,
+        "27": 3,
+        "35": 8,
+        "36": 11,
+        "53": 7,
+        "80": 15,
+        "99": 25,
+        "9648": 3,
+        "10402": 11,
+        "10749": 6,
+        "10751": 1,
+        "10770": 1
+      },
+      "decades": {
+        "1950": 1,
+        "1960": 4,
+        "1970": 9,
+        "1980": 7,
+        "1990": 11,
+        "2000": 9,
+        "2010": 10,
+        "2020": 6
+      },
+      "totalFilms": 67,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        99,
+        80
+      ],
+      "pacing": "slow-burn",
+      "tone": "dark",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "quentin tarantino",
+    "tmdbId": 138,
+    "name": "Quentin Tarantino",
+    "dna": {
+      "languages": {
+        "en": 15
+      },
+      "countries": {},
+      "genres": {
+        "14": 1,
+        "16": 1,
+        "18": 6,
+        "27": 1,
+        "28": 6,
+        "35": 3,
+        "37": 2,
+        "53": 8,
+        "80": 7,
+        "9648": 1,
+        "10752": 1
+      },
+      "decades": {
+        "1990": 5,
+        "2000": 5,
+        "2010": 4,
+        "2020": 1
+      },
+      "totalFilms": 15,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        53,
+        80,
+        18
+      ],
+      "pacing": "kinetic",
+      "tone": "dark",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "stanley kubrick",
+    "tmdbId": 240,
+    "name": "Stanley Kubrick",
+    "dna": {
+      "languages": {
+        "en": 16
+      },
+      "countries": {},
+      "genres": {
+        "12": 2,
+        "18": 9,
+        "27": 1,
+        "35": 2,
+        "36": 2,
+        "53": 5,
+        "80": 3,
+        "99": 3,
+        "878": 2,
+        "9648": 2,
+        "10749": 1,
+        "10752": 6
+      },
+      "decades": {
+        "1950": 7,
+        "1960": 4,
+        "1970": 2,
+        "1980": 2,
+        "1990": 1
+      },
+      "totalFilms": 16,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        10752,
+        53
+      ],
+      "pacing": "methodical",
+      "tone": "dark",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "steven spielberg",
+    "tmdbId": 488,
+    "name": "Steven Spielberg",
+    "dna": {
+      "languages": {
+        "en": 46
+      },
+      "countries": {},
+      "genres": {
+        "12": 15,
+        "14": 6,
+        "16": 1,
+        "18": 21,
+        "27": 6,
+        "28": 10,
+        "35": 4,
+        "36": 10,
+        "37": 1,
+        "53": 9,
+        "80": 3,
+        "99": 2,
+        "878": 11,
+        "9648": 4,
+        "10749": 3,
+        "10751": 3,
+        "10752": 6,
+        "10770": 6
+      },
+      "decades": {
+        "1960": 2,
+        "1970": 8,
+        "1980": 9,
+        "1990": 8,
+        "2000": 8,
+        "2010": 7,
+        "2020": 3
+      },
+      "totalFilms": 46,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        12,
+        878
+      ],
+      "pacing": "methodical",
+      "tone": "dark",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "paul thomas anderson",
+    "tmdbId": 4762,
+    "name": "Paul Thomas Anderson",
+    "dna": {
+      "languages": {
+        "en": 23
+      },
+      "countries": {},
+      "genres": {
+        "18": 14,
+        "35": 10,
+        "37": 1,
+        "53": 1,
+        "80": 3,
+        "99": 3,
+        "9648": 1,
+        "10402": 5,
+        "10749": 3
+      },
+      "decades": {
+        "1980": 1,
+        "1990": 7,
+        "2000": 5,
+        "2010": 6,
+        "2020": 2
+      },
+      "totalFilms": 23,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        35,
+        10402
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "wes anderson",
+    "tmdbId": 5655,
+    "name": "Wes Anderson",
+    "dna": {
+      "languages": {
+        "en": 23
+      },
+      "countries": {},
+      "genres": {
+        "12": 5,
+        "14": 2,
+        "16": 3,
+        "18": 13,
+        "35": 20,
+        "53": 1,
+        "80": 3,
+        "10749": 2,
+        "10751": 1
+      },
+      "decades": {
+        "1990": 3,
+        "2000": 5,
+        "2010": 6,
+        "2020": 8
+      },
+      "totalFilms": 23,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        35,
+        18,
+        12
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "sofia coppola",
+    "tmdbId": 1769,
+    "name": "Sofia Coppola",
+    "dna": {
+      "languages": {
+        "en": 14
+      },
+      "countries": {},
+      "genres": {
+        "18": 9,
+        "35": 4,
+        "36": 1,
+        "80": 1,
+        "99": 2,
+        "10402": 1,
+        "10749": 4,
+        "10770": 1
+      },
+      "decades": {
+        "1990": 3,
+        "2000": 4,
+        "2010": 4,
+        "2020": 3
+      },
+      "totalFilms": 14,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        35,
+        10749
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "greta gerwig",
+    "tmdbId": 45400,
+    "name": "Greta Gerwig",
+    "dna": {
+      "languages": {
+        "en": 6
+      },
+      "countries": {},
+      "genres": {
+        "12": 3,
+        "14": 3,
+        "18": 3,
+        "35": 2,
+        "10749": 2,
+        "10751": 2
+      },
+      "decades": {
+        "2000": 1,
+        "2010": 2,
+        "2020": 2
+      },
+      "totalFilms": 6,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        12,
+        14,
+        18
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "noah baumbach",
+    "tmdbId": 5656,
+    "name": "Noah Baumbach",
+    "dna": {
+      "languages": {
+        "en": 16
+      },
+      "countries": {},
+      "genres": {
+        "18": 10,
+        "35": 13,
+        "99": 2,
+        "10749": 4
+      },
+      "decades": {
+        "1990": 2,
+        "2000": 5,
+        "2010": 7,
+        "2020": 2
+      },
+      "totalFilms": 16,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        35,
+        18,
+        10749
+      ],
+      "pacing": "slow-burn",
+      "tone": "lighthearted",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "denis villeneuve",
+    "tmdbId": 137427,
+    "name": "Denis Villeneuve",
+    "dna": {
+      "languages": {
+        "fr": 11,
+        "en": 15
+      },
+      "countries": {},
+      "genres": {
+        "12": 4,
+        "16": 1,
+        "18": 9,
+        "28": 3,
+        "35": 4,
+        "53": 5,
+        "80": 3,
+        "99": 6,
+        "878": 8,
+        "9648": 3,
+        "10749": 2,
+        "10752": 1
+      },
+      "decades": {
+        "1990": 7,
+        "2000": 5,
+        "2010": 8,
+        "2020": 3
+      },
+      "totalFilms": 26,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        878,
+        99
+      ],
+      "pacing": "methodical",
+      "tone": "dark",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "alex garland",
+    "tmdbId": 2036,
+    "name": "Alex Garland",
+    "dna": {
+      "languages": {
+        "en": 6
+      },
+      "countries": {},
+      "genres": {
+        "12": 1,
+        "14": 2,
+        "18": 2,
+        "27": 2,
+        "28": 3,
+        "53": 1,
+        "878": 2,
+        "10752": 2
+      },
+      "decades": {
+        "2010": 2,
+        "2020": 4
+      },
+      "totalFilms": 6,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        28,
+        14,
+        18
+      ],
+      "pacing": "kinetic",
+      "tone": "dark",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "ridley scott",
+    "tmdbId": 578,
+    "name": "Ridley Scott",
+    "dna": {
+      "languages": {
+        "en": 40,
+        "fr": 2
+      },
+      "countries": {},
+      "genres": {
+        "12": 11,
+        "14": 1,
+        "18": 28,
+        "27": 3,
+        "28": 13,
+        "35": 2,
+        "36": 10,
+        "37": 1,
+        "53": 11,
+        "80": 7,
+        "99": 2,
+        "878": 6,
+        "9648": 1,
+        "10402": 1,
+        "10749": 3,
+        "10752": 6,
+        "10770": 1
+      },
+      "decades": {
+        "1960": 2,
+        "1970": 2,
+        "1980": 4,
+        "1990": 6,
+        "2000": 12,
+        "2010": 7,
+        "2020": 5
+      },
+      "totalFilms": 42,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        28,
+        12
+      ],
+      "pacing": "methodical",
+      "tone": "dark",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "james cameron",
+    "tmdbId": 2710,
+    "name": "James Cameron",
+    "dna": {
+      "languages": {
+        "en": 20
+      },
+      "countries": {},
+      "genres": {
+        "12": 6,
+        "14": 2,
+        "18": 2,
+        "27": 1,
+        "28": 10,
+        "36": 1,
+        "53": 5,
+        "99": 4,
+        "878": 10,
+        "10402": 2,
+        "10749": 1,
+        "10752": 1,
+        "10770": 1
+      },
+      "decades": {
+        "1970": 1,
+        "1980": 5,
+        "1990": 3,
+        "2000": 4,
+        "2020": 4,
+        "2030": 1
+      },
+      "totalFilms": 20,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        28,
+        878,
+        12
+      ],
+      "pacing": "kinetic",
+      "tone": "dark",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "jordan peele",
+    "tmdbId": 291263,
+    "name": "Jordan Peele",
+    "dna": {
+      "languages": {
+        "en": 4
+      },
+      "countries": {},
+      "genres": {
+        "27": 4,
+        "53": 2,
+        "878": 1,
+        "9648": 2
+      },
+      "decades": {
+        "2010": 2,
+        "2020": 1
+      },
+      "totalFilms": 4,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        27,
+        53,
+        9648
+      ],
+      "pacing": "kinetic",
+      "tone": "dark",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "ari aster",
+    "tmdbId": 1145520,
+    "name": "Ari Aster",
+    "dna": {
+      "languages": {
+        "en": 8
+      },
+      "countries": {},
+      "genres": {
+        "12": 1,
+        "14": 1,
+        "18": 4,
+        "27": 4,
+        "35": 4,
+        "37": 1,
+        "53": 1,
+        "80": 1,
+        "9648": 2
+      },
+      "decades": {
+        "2010": 5,
+        "2020": 2
+      },
+      "totalFilms": 8,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        18,
+        27,
+        35
+      ],
+      "pacing": "methodical",
+      "tone": "dark",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "michael mann",
+    "tmdbId": 638,
+    "name": "Michael Mann",
+    "dna": {
+      "languages": {
+        "en": 18
+      },
+      "countries": {},
+      "genres": {
+        "14": 1,
+        "18": 9,
+        "27": 2,
+        "28": 6,
+        "36": 3,
+        "53": 9,
+        "80": 11,
+        "99": 2,
+        "10749": 1,
+        "10752": 1,
+        "10770": 2
+      },
+      "decades": {
+        "1970": 2,
+        "1980": 5,
+        "1990": 3,
+        "2000": 4,
+        "2010": 1,
+        "2020": 1
+      },
+      "totalFilms": 18,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        80,
+        18,
+        53
+      ],
+      "pacing": "kinetic",
+      "tone": "dark",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "james wan",
+    "tmdbId": 2127,
+    "name": "James Wan",
+    "dna": {
+      "languages": {
+        "en": 17
+      },
+      "countries": {},
+      "genres": {
+        "12": 2,
+        "14": 3,
+        "18": 1,
+        "27": 11,
+        "28": 6,
+        "35": 1,
+        "53": 7,
+        "80": 4,
+        "878": 1,
+        "9648": 2
+      },
+      "decades": {
+        "1990": 1,
+        "2000": 5,
+        "2010": 6,
+        "2020": 2
+      },
+      "totalFilms": 17,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        27,
+        53,
+        28
+      ],
+      "pacing": "kinetic",
+      "tone": "dark",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "mike flanagan",
+    "tmdbId": 551463,
+    "name": "Mike Flanagan",
+    "dna": {
+      "languages": {
+        "en": 15
+      },
+      "countries": {},
+      "genres": {
+        "14": 4,
+        "18": 5,
+        "27": 10,
+        "53": 3,
+        "878": 1,
+        "9648": 2
+      },
+      "decades": {
+        "2000": 4,
+        "2010": 6,
+        "2020": 3
+      },
+      "totalFilms": 15,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        27,
+        18,
+        14
+      ],
+      "pacing": "methodical",
+      "tone": "dark",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "peter jackson",
+    "tmdbId": 108,
+    "name": "Peter Jackson",
+    "dna": {
+      "languages": {
+        "en": 22
+      },
+      "countries": {},
+      "genres": {
+        "12": 9,
+        "14": 9,
+        "16": 2,
+        "18": 4,
+        "27": 4,
+        "28": 9,
+        "35": 5,
+        "36": 1,
+        "53": 1,
+        "99": 4,
+        "878": 2,
+        "10402": 2,
+        "10752": 2,
+        "10770": 1
+      },
+      "decades": {
+        "1970": 1,
+        "1980": 3,
+        "1990": 5,
+        "2000": 7,
+        "2010": 4,
+        "2020": 1
+      },
+      "totalFilms": 22,
+      "confidence": "high",
+      "primaryLanguage": "en",
+      "primaryCountry": "US",
+      "topGenres": [
+        12,
+        14,
+        28
+      ],
+      "pacing": "kinetic",
+      "tone": "balanced",
+      "ecosystem": "english"
+    }
+  },
+  {
+    "id": "masaki kobayashi",
+    "name": "Masaki Kobayashi",
+    "dna": {
+      "primaryLanguage": "ja",
+      "ecosystem": "japanese",
+      "totalFilms": 20
+    }
+  }
+]

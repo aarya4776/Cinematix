@@ -1,0 +1,870 @@
+/* ─────────────────────────────────────────────────────────
+   CINEMATIX — Director's Universe CSS (Cinematic Editorial)
+   ───────────────────────────────────────────────────────── */
+
+.director-universe-page {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 120px;
+  overflow-x: hidden;
+  background:
+    linear-gradient(180deg, var(--director-wash) 0%, rgba(11, 12, 16, 0) 48rem),
+    var(--color-bg);
+}
+
+.director-universe-page::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto;
+  height: 90vh;
+  pointer-events: none;
+  background:
+    linear-gradient(115deg, transparent 0%, var(--director-mist) 42%, transparent 78%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, transparent 42%);
+  opacity: 0;
+  transform: translate3d(-1%, 0, 0);
+  animation:
+    directorAmbientReveal 2s ease-out 0.4s forwards,
+    directorAmbientDrift 45s ease-in-out 2s infinite alternate;
+  z-index: 0;
+}
+
+/* ── HERO ────────────────────────────────────────────────── */
+
+.director-hero {
+  position: relative;
+  min-height: 82vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.director-hero-backdrop {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center 30%;
+  opacity: 0.45;
+  filter: saturate(0.9) contrast(1.1);
+  transform: scale(1.02);
+  animation:
+    directorBackdropReveal 1.8s ease-out forwards,
+    directorBackdropLife 50s ease-in-out 1.5s infinite alternate;
+  z-index: 0;
+}
+
+.director-hero-vignette {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(11, 12, 16, 0.96) 0%, rgba(11, 12, 16, 0.8) 40%, rgba(11, 12, 16, 0.1) 100%),
+    linear-gradient(180deg, rgba(11, 12, 16, 0.6) 0%, rgba(11, 12, 16, 0) 20%, rgba(11, 12, 16, 0) 65%, var(--color-bg) 100%);
+  opacity: 0;
+  animation: directorVignetteReveal 0.8s ease-out 0.2s forwards;
+  z-index: 1;
+}
+
+.director-hero-content {
+  position: relative;
+  z-index: 2;
+  padding-top: clamp(6rem, 12vw, 10rem);
+  padding-bottom: clamp(4rem, 8vw, 6rem);
+  width: 100%;
+}
+
+.director-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  font-size: 0.85rem;
+  margin-bottom: 40px;
+  transition: color 0.2s ease;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.director-back-link:hover { color: white; }
+
+.director-hero-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 2rem;
+}
+
+.director-hero-copy {
+  max-width: 760px;
+  flex: 1;
+}
+
+/* Kicker */
+.director-kicker,
+.director-section-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--director-accent);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.director-kicker {
+  margin-bottom: 16px;
+  opacity: 0;
+  transform: translateY(10px);
+  animation: directorReveal 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) 0.5s forwards;
+}
+
+/* Title */
+.director-hero h1 {
+  font-size: clamp(3rem, 6vw, 4.5rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  margin-bottom: 12px;
+  text-shadow: 0 12px 34px rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transform: translateY(14px);
+  animation: directorReveal 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) 0.6s forwards;
+}
+
+/* Identity label */
+.director-identity-label {
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: color-mix(in srgb, var(--director-accent) 80%, white);
+  margin-bottom: 24px;
+  letter-spacing: 0.03em;
+  font-style: italic;
+  opacity: 0;
+  transform: translateY(10px);
+  animation: directorReveal 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) 0.7s forwards;
+}
+
+/* Signature style */
+.director-signature {
+  max-width: 680px;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  font-weight: 400;
+  margin-bottom: 32px;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transform: translateY(10px);
+  animation: directorReveal 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) 0.8s forwards;
+}
+
+/* Identity Chips */
+.director-identity-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  opacity: 0;
+  transform: translateY(10px);
+  animation: directorReveal 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) 0.9s forwards;
+}
+
+.director-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  text-transform: capitalize;
+}
+
+/* Portrait */
+.director-portrait-container {
+  position: relative;
+  width: min(320px, 35vw);
+  aspect-ratio: 3 / 4;
+  flex-shrink: 0;
+  opacity: 0;
+  transform: translateY(14px);
+  animation: directorReveal 1.2s cubic-bezier(0.2, 0.8, 0.2, 1) 0.9s forwards;
+  z-index: 1;
+}
+
+.director-portrait {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 4px;
+  filter: contrast(0.95) saturate(0.9);
+}
+
+/* Elegant initials fallback when portrait is missing */
+.director-portrait-initials {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.04) 0%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.director-portrait-initials span {
+  font-size: clamp(2.5rem, 6vw, 3.5rem);
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.35);
+  font-family: 'Georgia', serif;
+}
+
+/* The magic mask overlay to blend the portrait smoothly into the shadows */
+.portrait-mask-overlay {
+  position: absolute;
+  inset: -2px;
+  background:
+    linear-gradient(to right, rgba(11, 12, 16, 1) 0%, rgba(11, 12, 16, 0) 15%, rgba(11, 12, 16, 0) 85%, rgba(11, 12, 16, 1) 100%),
+    linear-gradient(to top, rgba(11, 12, 16, 1) 0%, rgba(11, 12, 16, 0.4) 15%, rgba(11, 12, 16, 0) 40%);
+  pointer-events: none;
+}
+
+/* ── CINEMATIC DNA / THEME CHIPS ─────────────────────────── */
+
+.director-dna-section {
+  position: relative;
+  z-index: 3;
+  margin-top: 0;
+  margin-bottom: 60px;
+  opacity: 0;
+  transform: translateY(14px);
+  animation: directorReveal 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) 1.0s forwards;
+}
+
+.director-section-heading {
+  margin-bottom: 24px;
+  padding-left: 16px;
+  border-left: 2px solid var(--director-accent);
+}
+
+.director-section-heading h2 {
+  margin-top: 6px;
+  margin-bottom: 4px;
+  font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.section-context {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 6px;
+  line-height: 1.4;
+}
+
+.director-theme-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.director-theme-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 18px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.85);
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: border-color 0.25s ease, color 0.25s ease;
+}
+
+.director-theme-chip:hover {
+  border-color: var(--director-accent);
+  color: white;
+}
+
+/* ── ENTRY POINTS ────────────────────────────────────────── */
+
+.entry-points-section {
+  position: relative;
+  z-index: 3;
+  margin-bottom: 60px;
+}
+
+.entry-points-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.entry-point-card {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.4s ease, border-color 0.4s ease;
+}
+
+.ep-backdrop {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  filter: brightness(0.9);
+  transition: opacity 0.5s ease, transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), filter 0.5s ease;
+}
+
+.entry-point-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(11, 12, 16, 0.95) 0%, rgba(11, 12, 16, 0.2) 60%, transparent 100%);
+  transition: background 0.4s ease;
+}
+
+.ep-content {
+  position: relative;
+  z-index: 2;
+  transform: translateY(6px);
+  transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+.ep-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--director-accent);
+  margin-bottom: 8px;
+}
+
+.ep-content h4 {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: white;
+  margin: 0;
+  padding-right: 24px; /* Space for the arrow */
+}
+
+.ep-arrow {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0);
+  transform: translate(-8px, 8px);
+  transition: color 0.3s ease, transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* ── INTERACTION STATES ── */
+.entry-point-card:hover {
+  transform: scale(1.015);
+  box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.6), 0 0 20px -5px var(--director-glow);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.entry-point-card:hover .ep-backdrop {
+  opacity: 0.75;
+  filter: brightness(1.1);
+  transform: scale(1.04);
+}
+
+.entry-point-card:hover::after {
+  background: linear-gradient(to top, rgba(11, 12, 16, 0.85) 0%, rgba(11, 12, 16, 0.1) 60%, transparent 100%);
+}
+
+.entry-point-card:hover .ep-content {
+  transform: translateY(0);
+}
+
+.entry-point-card:hover .ep-arrow {
+  color: rgba(255, 255, 255, 0.8);
+  transform: translate(0, 0);
+}
+
+/* ── DISCOVERY SECTIONS ──────────────────────────────────── */
+
+.discovery-sections-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-top: 40px;
+}
+
+.similar-directors-section {
+  position: relative;
+  z-index: 3;
+}
+
+.similar-directors-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Sleek Horizontal Editorial Strip */
+.similar-director-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: 80px minmax(0, 1fr);
+  gap: 20px;
+  padding: 16px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  text-decoration: none;
+  overflow: hidden;
+  transition:
+    background 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.similar-director-card:hover {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Portrait */
+.sdc-portrait-wrap {
+  width: 80px;
+  aspect-ratio: 3 / 4;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.sdc-portrait {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  filter: contrast(0.95);
+  transition: transform 0.4s ease;
+}
+
+.similar-director-card:hover .sdc-portrait {
+  transform: scale(1.04);
+}
+
+.sdc-portrait-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.sdc-initials {
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: 0.06em;
+  color: rgba(255, 255, 255, 0.3);
+  font-family: 'Georgia', serif;
+}
+
+/* Info Panel */
+.sdc-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Glassmorphic Badge */
+.sdc-badge {
+  align-self: flex-start;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--director-accent) 90%, white);
+  background: color-mix(in srgb, var(--director-accent) 15%, transparent);
+  border: 1px solid color-mix(in srgb, var(--director-accent) 25%, transparent);
+  padding: 3px 8px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.sdc-name {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: white;
+  margin: 0 0 4px 0;
+  letter-spacing: -0.01em;
+}
+
+.sdc-identity {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0 0 6px 0;
+  font-style: italic;
+}
+
+.sdc-reason {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.5;
+  margin: 0 0 12px 0;
+}
+
+.sdc-cta {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--director-accent);
+  opacity: 0.8;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  transform: translateX(0);
+}
+
+.similar-director-card:hover .sdc-cta {
+  opacity: 1;
+  transform: translateX(4px);
+}
+
+/* ── LOADING / ERROR ─────────────────────────────────────── */
+
+.director-loading,
+.director-error {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.director-loading h2 {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.02em;
+}
+
+/* ── KEYFRAMES ────────────────────────────────────────────── */
+
+@keyframes directorBackdropReveal {
+  from { opacity: 0; }
+  to   { opacity: 0.45; }
+}
+
+@keyframes directorBackdropLife {
+  from { transform: scale(1.01) translate3d(0, 0, 0); }
+  to   { transform: scale(1.03) translate3d(0.5%, -0.2%, 0); }
+}
+
+@keyframes directorVignetteReveal {
+  to { opacity: 1; }
+}
+
+@keyframes directorAmbientReveal {
+  to { opacity: 1; }
+}
+
+@keyframes directorAmbientDrift {
+  from { transform: translate3d(-1%, 0, 0); }
+  to   { transform: translate3d(1%, -0.5%, 0); }
+}
+
+@keyframes directorReveal {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ── REDUCED MOTION ──────────────────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  .director-universe-page::before,
+  .director-hero-backdrop,
+  .director-hero-vignette,
+  .director-kicker,
+  .director-hero h1,
+  .director-identity-label,
+  .director-signature,
+  .director-identity-chips,
+  .director-portrait-container,
+  .director-dna-section {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ── RESPONSIVE ──────────────────────────────────────────── */
+
+@media (max-width: 900px) {
+  .director-hero { min-height: auto; }
+
+  .director-hero-layout {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .director-portrait-container {
+    width: 200px;
+    margin-bottom: -20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .similar-director-card {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .sdc-portrait-wrap {
+    width: 60px;
+  }
+}
+
+/* ── COMPLETE FILMOGRAPHY ARCHIVE ────────────────────────── */
+
+.filmography-archive-section {
+  position: relative;
+  z-index: 3;
+  margin-bottom: 40px;
+}
+
+.filmography-archive-section .director-section-heading {
+  margin-bottom: 32px;
+}
+
+/* Year decade label — cinematic timeline anchors */
+.filmography-decade-group {
+  margin-bottom: 48px;
+}
+
+.filmography-decade-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.25);
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* The primary grid — dense, archival, browseable */
+.filmography-timeline-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 20px 16px;
+}
+
+/* Individual film archive card */
+.ftc-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  border-radius: 4px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  transition:
+    transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1),
+    border-color 0.25s ease,
+    box-shadow 0.3s ease;
+}
+
+.ftc-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 12px 32px -8px rgba(0, 0, 0, 0.7), 0 0 16px -4px var(--director-glow);
+}
+
+/* Poster container — strict 2:3 aspect */
+.ftc-poster-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.03);
+  flex-shrink: 0;
+}
+
+.ftc-poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  filter: contrast(0.95) saturate(0.9);
+  transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1), filter 0.4s ease;
+}
+
+.ftc-card:hover .ftc-poster {
+  transform: scale(1.05);
+  filter: contrast(1.0) saturate(1.0);
+}
+
+/* No-poster placeholder */
+.ftc-poster-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    160deg,
+    rgba(255, 255, 255, 0.04) 0%,
+    rgba(255, 255, 255, 0.015) 100%
+  );
+}
+
+.ftc-poster-placeholder-icon {
+  opacity: 0.15;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+/* Content type badge — subtle editorial tag on the poster */
+.ftc-type-tag {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 7px;
+  border-radius: 3px;
+  backdrop-filter: blur(8px);
+  background: rgba(11, 12, 16, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.ftc-type-tag.tag-tv {
+  border-color: rgba(59, 130, 246, 0.4);
+  color: rgba(147, 197, 253, 0.9);
+}
+
+.ftc-type-tag.tag-documentary {
+  border-color: rgba(234, 179, 8, 0.4);
+  color: rgba(253, 224, 71, 0.9);
+}
+
+.ftc-type-tag.tag-short {
+  border-color: rgba(168, 85, 247, 0.35);
+  color: rgba(216, 180, 254, 0.9);
+}
+
+/* Subtle hover overlay gradient */
+.ftc-poster-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(11, 12, 16, 0.85) 0%,
+    rgba(11, 12, 16, 0.1) 40%,
+    transparent 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.ftc-card:hover .ftc-poster-overlay {
+  opacity: 1;
+}
+
+/* Rating on hover */
+.ftc-rating {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(11, 12, 16, 0.8);
+  padding: 2px 6px;
+  border-radius: 3px;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  backdrop-filter: blur(4px);
+}
+
+.ftc-card:hover .ftc-rating {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Card info area */
+.ftc-info {
+  padding: 10px 10px 12px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.ftc-year {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--director-accent);
+  opacity: 0.85;
+}
+
+.ftc-title {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.3;
+  /* Clamp to 2 lines */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+
+
+/* ── FILMOGRAPHY RESPONSIVE ──────────────────────────────── */
+
+@media (max-width: 900px) {
+  .filmography-timeline-grid {
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 16px 12px;
+  }
+}
+
+@media (max-width: 640px) {
+  .filmography-timeline-grid {
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    gap: 14px 10px;
+  }
+
+  .ftc-info {
+    padding: 8px 8px 10px;
+  }
+
+  .ftc-title {
+    font-size: 0.76rem;
+  }
+}

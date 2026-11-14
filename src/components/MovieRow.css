@@ -1,0 +1,166 @@
+.movie-row-container {
+  margin-bottom: 40px;
+}
+
+.movie-row-container.row-reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.72s var(--ease-premium), transform 0.72s var(--ease-premium);
+}
+
+.movie-row-container.row-reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.movie-row-header {
+  margin-bottom: 20px;
+  padding-left: 12px;
+  border-left: 4px solid var(--color-accent);
+}
+
+.row-title {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+
+.row-subtitle {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  margin-top: 6px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.movie-row-slider-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.movie-row {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 10px 0 25px;
+  scrollbar-width: none; /* Firefox */
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch; /* Momentum scrolling for iOS */
+}
+
+.movie-row::-webkit-scrollbar {
+  display: none; /* Chrome/Safari/Opera */
+}
+
+.movie-row > div {
+  flex: 0 0 200px;
+}
+
+.movie-row-container.row-reveal .row-card-shell {
+  opacity: 0;
+  transform: translateY(14px);
+}
+
+.movie-row-container.row-reveal.revealed .row-card-shell {
+  animation: rowCardReveal 0.65s var(--ease-premium) forwards;
+}
+
+/* Edge Fade Overlays */
+.row-fade-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 25px; /* Offset overflow-x padding */
+  width: 100px;
+  z-index: 4;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--transition-normal);
+}
+
+.row-fade-overlay.active {
+  opacity: 1;
+}
+
+.left-fade {
+  left: 0;
+  background: linear-gradient(90deg, var(--color-bg) 0%, transparent 100%);
+}
+
+.right-fade {
+  right: 0;
+  background: linear-gradient(-90deg, var(--color-bg) 0%, transparent 100%);
+}
+
+/* Minimal Scroll Chevrons */
+.row-scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(18, 20, 26, 0.75);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition-medium), background var(--transition-fast), transform var(--transition-fast), border-color var(--transition-fast);
+}
+
+.left-btn {
+  left: 12px;
+}
+
+.right-btn {
+  right: 12px;
+}
+
+/* Hover effects for Desktop Chevrons - appear only on hover and only if visible class is on them */
+@media (hover: hover) {
+  .movie-row-slider-wrapper:hover .row-scroll-btn.visible {
+    opacity: 0.85;
+    pointer-events: auto;
+  }
+  .row-scroll-btn:hover {
+    opacity: 1 !important;
+    background: var(--color-accent);
+    border-color: var(--color-accent);
+    transform: translateY(-50%) scale(1.08);
+  }
+  .row-scroll-btn:active {
+    transform: translateY(-50%) scale(0.95);
+  }
+}
+
+@media (max-width: 768px) {
+  .movie-row > div {
+    flex: 0 0 150px;
+  }
+  .row-fade-overlay {
+    width: 50px;
+  }
+}
+
+@keyframes rowCardReveal {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .movie-row-container.row-reveal,
+  .movie-row-container.row-reveal .row-card-shell,
+  .movie-row-container.row-reveal.revealed .row-card-shell {
+    animation: none;
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
