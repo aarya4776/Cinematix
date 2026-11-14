@@ -1,205 +1,137 @@
-# 🎬 Cinematix
+# Cinematix
 
-### Discover Cinema. Understand Your Taste. Find Your Next Favourite.
+Cinematix is an interactive cinematic discovery and movie recommendation platform designed to help users explore films beyond conventional genre-based recommendations. It combines algorithmic movie taste profiling, mathematical similarity scoring, curated cinematic knowledge graphs, and director-focused exploration to create a more personalized movie discovery experience.
 
-Cinematix is a cinematic movie discovery platform designed to make finding your next film more meaningful. Instead of relying entirely on conventional recommendations, it combines algorithmic taste profiling, curated cinematic connections, and director-focused exploration to help users discover films beyond their usual preferences.
+The project focuses on combining algorithmic recommendation systems, cinematic data relationships, interactive movie exploration, and modern frontend engineering into a polished, immersive web application.
 
-Built with React 19, Vite, and WebGL-powered visual experiences, Cinematix turns movie discovery into an interactive journey.
+## Features
 
----
+- Interactive movie discovery using live TMDB data
+- Movie DNA engine for mathematical movie taste profiling
+- 20-dimensional cinematic taste vector representation
+- Pairwise movie battles to identify user preferences
+- Cosine similarity-based matching against curated cinematic canons
+- Algorithmic taste archetype attribution
+- Personalized movie recommendations based on taste profiles
+- Auteur Universe for exploring directors and their cinematic identities
+- Director worldview mapping and visual grammar classification
+- Tonight's Pick for curated movie discovery
+- Cinematic Twins for discovering related films and unexpected pairings
+- Blind Spots for identifying unexplored cinematic preferences
+- Regional and stylistic cinema exploration through curated ecosystems
+- Personal watchlist with persistent browser storage
+- Movie metadata, posters, backdrops, cast information, and trailers
+- External critic ratings integration
+- Interactive animations, 3D graphics, and browser-generated sound effects
 
-## ✨ Features
+## Engineering Highlights
 
-### 1. Movie Discovery
-- Explore movies using live TMDB data.
-- Browse movie posters, backdrops, descriptions, trailers, cast, and other metadata.
-- Discover films across different genres, regions, and cinematic movements.
+- Architected a 20-dimensional mathematical movie taste profiling system
+- Implemented pairwise comparison algorithms for identifying cinematic preferences
+- Developed cosine similarity-based movie matching and recommendation logic
+- Engineered a custom Movie DNA Vector Engine for taste analysis and archetype attribution
+- Built an Auteur Universe Engine for director worldview mapping and visual grammar classification
+- Designed curated cinematic knowledge graphs connecting films, directors, regional movements, and stylistic relationships
+- Integrated TMDB and OMDb APIs for real-time movie metadata and ratings enrichment
+- Implemented request caching and promise deduplication to optimize external API communication
+- Developed persistent watchlist and Movie DNA session storage
+- Engineered session-level recommendation tracking to prevent repeated movie suggestions
+- Integrated WebGL-powered visual effects and interactive 3D backgrounds
+- Focused on responsive layouts, animation performance, and seamless user interaction
 
-### 2. Movie DNA — Taste Profiling
-- An interactive movie preference profiling experience.
-- Uses 20-dimensional mathematical taste vectors to represent cinematic preferences.
-- Pairwise movie battles help identify user preferences.
-- Uses cosine similarity to compare taste profiles against curated cinematic canons.
-- Generates algorithmic taste archetypes and movie recommendations.
+## Tech Stack
 
-### 3. Auteur Universe
-- Explore directors and their cinematic identities.
-- Map director worldviews and visual grammar.
-- Examine filmmaking styles and career classifications through a custom algorithmic engine.
+### Frontend
 
-### 4. Tonight's Pick
-- Discover curated movie recommendations for your next movie night.
-- Explore cinematic pairings and unexpected suggestions.
-- Avoid repeated recommendations within the same browsing session.
+- React 19
+- JavaScript (ES6+)
+- JSX
+- HTML5
+- CSS3
+- React Router DOM 7
+- Vite 8
 
-### 5. Cinematic Connections
-- Explore curated relationships between films, directors, genres, and cinematic movements.
-- Discover cinematic twins and related film recommendations.
-- Identify potential cinematic blind spots and explore unfamiliar styles.
+### UI & Animation
 
-### 6. Personal Watchlist
-- Save movies to a personal watchlist.
-- Maintain your saved collection across browser sessions using local storage.
+- Framer Motion
+- Lucide React
+- Custom CSS Design System
+- Inter & Outfit Typography
 
----
+### 3D Graphics & Audio
 
-## 🛠️ Technology Stack
+- Three.js
+- OGL
+- WebGL
+- Web Audio API
 
-| Category | Technologies |
-|---|---|
-| Frontend | React 19, JavaScript, JSX |
-| Build Tool | Vite 8 |
-| Routing | React Router DOM 7 |
-| Styling | Custom CSS3 |
-| Animations | Framer Motion |
-| 3D Graphics | Three.js, OGL, WebGL |
-| Iconography | Lucide React |
-| Audio | Web Audio API |
-| Movie Data | TMDB API v3 |
-| Ratings | OMDb API |
-| Video Playback | YouTube Iframe API |
-| Storage | localStorage, sessionStorage |
-| Development | Node.js, npm, ESLint |
+### Algorithms & Application Logic
 
----
+- 20-Dimensional Mathematical Taste Vectors
+- Cosine Similarity
+- Pairwise Comparison Algorithms
+- Custom Recommendation Engines
+- Curated Cinematic Knowledge Graphs
+- Director Worldview Mapping
+- Visual Grammar Classification
 
-## 🧠 Algorithmic Engines
+### APIs & External Services
 
-Cinematix incorporates custom-built algorithmic systems:
+- The Movie Database (TMDB) API v3
+- OMDb API
+- YouTube Iframe API
 
-- **Movie DNA Vector Engine:** 20-dimensional taste representation, pairwise preference comparisons, cosine similarity, and archetype attribution.
-- **Auteur Universe Engine:** Director worldview mapping, visual grammar classification, and career taxonomy.
-- **Cinematic Knowledge Graphs:** Curated cinematic relationships, regional film ecosystems, cinematic twins, and blind-spot mappings.
+### Storage & Development Tools
 
-These systems use deterministic algorithms and curated data rather than relying on generative AI for movie recommendations.
+- localStorage
+- sessionStorage
+- In-Memory TTL Caching
+- Node.js
+- npm
+- ESLint
 
----
+## Project Focus
 
-## 🏗️ Architecture
+Cinematix was built to explore:
+
+- algorithmic movie recommendation systems
+- mathematical representation of user preferences
+- similarity-based recommendation techniques
+- cinematic knowledge graph modelling
+- director and filmmaking-style analysis
+- curated relationships between films and cinema movements
+- interactive data-driven web applications
+- immersive frontend experiences and visual engineering
+
+The project emphasizes moving beyond conventional movie recommendations by exploring how mathematical preference modelling, curated cinematic relationships, and director-focused analysis can create more meaningful film discovery experiences.
+
+## Architecture
 
 Cinematix follows a client-side Single Page Application (SPA) architecture.
 
-- Application logic and recommendation algorithms execute in the browser.
-- External APIs provide movie metadata and critic ratings.
-- Browser storage maintains watchlists and session information.
-- An in-memory caching layer helps reduce redundant API requests.
+- React handles the component-based user interface and application state.
+- Custom JavaScript engines execute movie taste profiling, director analysis, and recommendation algorithms in the browser.
+- TMDB and OMDb provide external movie information and ratings.
+- YouTube Iframe integration enables trailer playback.
+- Browser storage maintains watchlists, completed Movie DNA profiles, and session-level recommendation history.
+- An in-memory caching layer reduces redundant API requests.
 
-There is currently no separately developed backend server or server-side database.
+The application does not currently use a separately developed backend server or server-side database.
 
----
+## UI & UX
 
-## 🚀 Getting Started
+The interface was designed with a strong focus on:
 
-### Prerequisites
+- immersive cinematic aesthetics
+- modern dark-themed visual design
+- glassmorphism and layered visual effects
+- responsive layouts across screen sizes
+- fluid page transitions and micro-interactions
+- interactive 3D visual elements
+- cinematic typography and visual hierarchy
+- smooth movie browsing and discovery
+- intuitive navigation and interaction patterns
 
-- Node.js
-- npm
-- TMDB API key
-- OMDb API key
+Cinematix was built as a modern cinematic discovery platform focused on combining mathematical taste profiling, algorithmic recommendations, curated film relationships, director analysis, and immersive frontend engineering into a unified movie exploration experience.
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/aarya4776/Cinematix.git
-```
-
-### 2. Navigate into the project
-
-```bash
-cd Cinematix
-```
-
-### 3. Install dependencies
-
-```bash
-npm install
-```
-
-### 4. Configure environment variables
-
-Create a `.env` file in the project root using `.env.example` as a template.
-
-Add your API keys:
-
-```env
-VITE_TMDB_API_KEY=your_tmdb_api_key
-VITE_OMDB_API_KEY=your_omdb_api_key
-```
-
-Obtain API keys from:
-
-- TMDB: https://developer.themoviedb.org/
-- OMDb: https://www.omdbapi.com/apikey.aspx
-
-### 5. Start the development server
-
-```bash
-npm run dev
-```
-
-Open the local URL displayed in your terminal to access Cinematix.
-
-### 6. Build for production
-
-```bash
-npm run build
-```
-
-### 7. Run ESLint
-
-```bash
-npm run lint
-```
-
----
-
-## 📁 Project Structure
-
-```text
-Cinematix/
-│
-├── public/
-│
-├── scripts/
-│
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── data/
-│   ├── pages/
-│   ├── services/
-│   ├── styles/
-│   ├── utils/
-│   ├── validation/
-│   └── App.jsx
-│
-├── .env.example
-├── .gitignore
-├── index.html
-├── package.json
-├── package-lock.json
-├── vite.config.js
-└── README.md
-```
-
----
-
-## 🔐 Security Note
-
-API keys are configured through environment variables. Because this is a client-side application, variables prefixed with `VITE_` are included in the browser bundle and should not be treated as private credentials.
-
-Never commit your actual `.env` file or other sensitive credentials to GitHub.
-
----
-
-## 📌 Project Information
-
-**Project:** Cinematix  
-**Category:** Movie Discovery & Recommendation Platform  
-**Architecture:** Client-Side SPA  
-**Frontend Framework:** React 19  
-**Build Tool:** Vite 8
-
----
-
-Cinematix — Explore Beyond Your Watchlist. Discover Beyond Your Taste.
+**Cinematix — Discover Beyond Your Watchlist.**
